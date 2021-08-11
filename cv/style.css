@@ -1,0 +1,50 @@
+body{
+    font-family: 'Georama', sans-serif;
+    margin: 0;
+}
+header{
+    padding: 20px;
+    background-color: #32364f;
+    color: white;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.avatar{
+    width: 12%;
+    float: right;
+    margin-top: -5%;
+    margin-right: 3%;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 100%;
+}
+.side-bar{
+    background-color: #d2d7b7;
+    width: 25%;
+    padding:20px;
+}
+.rectangle{
+    height: 5px;
+    width: 100px;
+    color: black;
+}
+.side-bar div{
+    margin: 10px;
+}
+.Experiences{
+    padding: 20px;
+}
+.formation-details{
+    margin: 20px;
+}
+.Experiences div div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+.Experiences div div div{
+    display: flex;
+    flex-direction: column;
+}
